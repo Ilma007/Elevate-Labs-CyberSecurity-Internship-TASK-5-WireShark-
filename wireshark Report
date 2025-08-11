@@ -48,14 +48,18 @@ Apply protocol-specific dissectors for deeper inspection.
 Followed selected TCP/UDP streams to inspect packet-level data.
 
 
-.......................................RESULT SCREENSHOT ......................................
-////////.......FOR TCP.........////////
+.......................................COMMANDS ......................................
+1.sudo apt update
+2.sudo apt upgrade
+3.sudo apt install wireshark
+or 
+open preinstall wireshark in your kali linux 
+4. start your scanning the traffic in your wireshark tool ....
+5.open your search broswer and open any website or any login website for search and then back to your tool then stp the captureing .
+6. now filter your scanning packets through this command ...
+ip.addr == <ip address> of target website .... or search through short abbrivation .
+7. now you can search your tcp , udp ,dns ,icmp packets through using this command which show you the result into text form .
+tcp and/&& ip.addr == <ip address>
 
-
-
-
-
-
-
-/////////.......FOR UDP...////////
+then analyze your traffic on network .
 
